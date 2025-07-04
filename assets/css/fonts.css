@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'sunny';
+    src: url('../fonts/Sunny.woff2') format('woff2'),
+    url('../fonts/Sunny.woff') format('woff'),   
+    url('../fonts/Sunny.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'NewYork';
+    src: url('../fonts/NewYork.woff2') format('woff2'), 
+         url('../fonts/NewYork.woff') format('woff'),   
+         url('../fonts/NewYork.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'lofty';
+    src: url('../fonts/Lofty.woff2') format('woff2'),
+         url('../fonts/Lofty.woff') format('woff'),   
+         url('../fonts/Lofty.otf') format('opentype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'bare';
+    src: url('../fonts/Barely.woff2') format('woff2'),
+         url('../fonts/Barely.woff') format('woff'),   
+         url('../fonts/Barely.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico.woff2') format('woff2'),
+         url('../fonts/Pacifico.woff') format('woff'),   
+         url('../fonts/Pacifico.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant.woff2') format('woff2'),
+         url('../fonts/Cormorant.woff') format('woff'),   
+         url('../fonts/Cormorant.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'Bodoni';
+    src: url('../fonts/Bodoni.woff2') format('woff2'),
+         url('../fonts/Bodoni.woff') format('woff'),   
+         url('../fonts/Bodoni.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'BodoniSC';
+    src: url('../fonts/BodoniSC.woff2') format('woff2'),
+         url('../fonts/BodoniSC.woff') format('woff'),   
+         url('../fonts/BodoniSC.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'Grey';
+    src: url('../fonts/Grey.woff2') format('woff2'),
+         url('../fonts/Grey.woff') format('woff'),   
+         url('../fonts/Grey.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat.woff2') format('woff2'),
+         url('../fonts/Montserrat.woff') format('woff'),   
+         url('../fonts/Montserrat.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/MontserratRegular.woff2') format('woff2'),
+         url('../fonts/MontserratRegular.woff') format('woff'),   
+         url('../fonts/MontserratRegular.ttf') format('truetype');
+         font-weight: 500;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'ArizoniaRegular';
+    src: url('../fonts/ArizoniaRegular.woff2') format('woff2'),
+         url('../fonts/ArizoniaRegular.woff') format('woff'),   
+         url('../fonts/ArizoniaRegular.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'wig';
+    src: url('../fonts/wiggly.woff2') format('woff2'),
+         url('../fonts/wiggly.woff') format('woff'),   
+         url('../fonts/wiggly.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'corn';
+    src: url('../fonts/corn.woff2') format('woff2'),
+         url('../fonts/corn.woff') format('woff'),   
+         url('../fonts/corn.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'feas';
+    src: url('../fonts/Feasibly.woff2') format('woff2'),
+         url('../fonts/Feasibly.woff') format('woff'),   
+         url('../fonts/Feasibly.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'glue';
+    src: url('../fonts/glue.woff2') format('woff2'),
+         url('../fonts/glue.woff') format('woff'),   
+         url('../fonts/glue.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal; 
+  }
