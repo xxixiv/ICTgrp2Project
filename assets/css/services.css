@@ -2,25 +2,22 @@
     margin-top: 100px;
     display: flex;
     min-height: 80vh;
-    justify-content: center;
 }
-.services .h2text {
-    justify-content: center;
-    display: flex;
-    margin-bottom: 50px;
 
-}
-.services h2 {
+.services p {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 100px;
+    display: flex;
+    justify-self: center;
+    padding: 10px 10px;
     font-family: NewYork, serif;
 }
 
 .cards
 {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 2fr);
 }
 
 .card-p1

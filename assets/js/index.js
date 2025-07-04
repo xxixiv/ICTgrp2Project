@@ -1,3 +1,40 @@
+
+
+//
+
+
+
+//// toggle icon
+let menuIcon = document.querySelector('.toggle');
+let nav = document.querySelector('header ul')
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle('act');
+  nav.classList.toggle('acti')
+  
+};
+
+window.addEventListener('scroll', function() {
+    // Calculate the scroll position
+    const scrollPosition = window.scrollY;
+  let logo = document.querySelector('.logo')
+  let navLinks = document.querySelectorAll('header ul li a');
+    // Check if scroll position is 10px or more from the top
+    if (scrollPosition >= 10) {
+        logo.classList.add('col');
+        header.classList.add('scrolled');
+        navLinks.forEach(link => {
+            link.classList.add('focl');
+        });
+        
+    } else {
+        header.classList.remove('scrolled');
+        navLinks.forEach(link => {
+            link.classList.remove('focl');
+        });
+        logo.classList.remove('col');
+    }
+});
+
 var slideshow = document.getElementById('slideshow');
 var slides = slideshow.getElementsByTagName('img');
 var slideshowText = document.getElementById('slideshowText');
@@ -58,24 +95,9 @@ slideshowText.addEventListener('mouseleave', () => {
 
 showText(currentTextIndex);
 showImg(currentImgIndex);
-
-//
-
-
-
-//// toggle icon
-let menuIcon = document.querySelector('.toggle');
-let nav = document.querySelector('header ul')
-menuIcon.onclick = () => {
-  menuIcon.classList.toggle('act');
-  nav.classList.toggle('acti')
-  
-};
-
-
 //Hover
-let sections = document.querySelectorAll('.section');
-let navLinks = document.querySelectorAll('header ul li a');
+// let sections = document.querySelectorAll('.section');
+// let navLinks = document.querySelectorAll('header ul li a');
 
 
 // window.onscroll = () => {
@@ -106,9 +128,9 @@ let navLinks = document.querySelectorAll('header ul li a');
 
 
 // //For COntainer
-window.addEventListener('scroll', function() {
-  const header = document.getElementById('header');
-  const homeSection = document.getElementById('home');
+// window.addEventListener('scroll', function() {
+//   const header = document.getElementById('header');
+//   const homeSection = document.getElementById('home');
 //   const housesSection = document.getElementById('houses');
 //   const aboutSection = document.getElementById('about');
 //   const contactSection = document.getElementById('contact')
@@ -154,24 +176,5 @@ window.addEventListener('scroll', function() {
   // if (scrollPosition >= homeSectionHeight + housesSectionHeight && scrollPosition < homeSectionHeight + housesSectionHeight + aboutSectionHeight) {
   //   header.classList.add('scrolled');
   // } 
-});
+// });
 
-window.addEventListener('scroll', function() {
-    // Calculate the scroll position
-    const scrollPosition = window.scrollY;
-
-    // Check if scroll position is 10px or more from the top
-    if (scrollPosition >= 10) {
-        header.classList.add('scrolled');
-        navLinks.forEach(link => {
-            link.classList.add('focl');
-        });
-        logo.classList.add('col');
-    } else {
-        header.classList.remove('scrolled');
-        navLinks.forEach(link => {
-            link.classList.remove('focl');
-        });
-        logo.classList.remove('col');
-    }
-});

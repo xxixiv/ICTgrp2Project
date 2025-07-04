@@ -40,28 +40,38 @@ padding-left: .75rem;
 .section {
     margin-top: 100px;
     display: flex;
-    min-height: 80vh;
+    height:80vh;
+    justify-content: center;
 }
-.contact .h2text {
-    display: flex;
-    margin-bottom: 50px;
 
+.para {
+  font-family: NewYork;
+  font-size: 2.5em;
+  padding: 10px 10px;
+  text-transform: uppercase;
 }
+
+.para span {
+  color: var(--base-color);
+  font-family: NewYork;
+}
+
 .contact h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     font-family: NewYork, serif;
 }
 .contact .form {
     display: flex;
-    margin-top: 50px;
-    width: 80vw;
+    align-items: center;
+    margin-top: 20px;
+    width: 400px;
 }
         form {
             display: flex;
             flex-direction: column;
-            width: 900px;
+            width: 350px;
             padding: 50px;
         }
         label {
@@ -90,3 +100,6 @@ padding-left: .75rem;
         button:hover {
             background-color: #0056b3;
         }
+@media (max-width: 780px) {
+
+}
